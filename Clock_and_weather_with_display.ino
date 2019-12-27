@@ -37,7 +37,7 @@ void loop() {
   Serial.print(DHT.temperature);
   Serial.println(DHT.humidity);
 
-  lcd.setCursor(0,0); // Clear the screen for new information
+  lcd.setCursor(0,0); // Reset the cursor to top left
 
   // Display humidity
   lcd.print("Humidity: ");
